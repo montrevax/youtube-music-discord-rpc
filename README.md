@@ -15,7 +15,7 @@ A lightweight, standalone Discord Rich Presence daemon for **YouTube Music** run
 - 🎧 **Native MPRIS Integration**: Automatically detects and reads track information, artist, album, playback status, and position directly from Chromium via `playerctl` / DBus.
 - 🖼️ **Automatic HD Album Art**: Fetches high-resolution cover artwork on-the-fly using Deezer and iTunes Search APIs (with in-memory caching), plus a fallback to the official YouTube Music icon.
 - ⏱️ **Live Progress Bar**: Displays an accurate playback timeline and elapsed / total duration in Discord when playing.
-- ⏸️ **Smart Pause Handling**: Displays `⏸ Paused` state and automatically clears the presence after a configurable timeout (default 5 minutes) so it doesn't linger indefinitely.
+- ⏸️ **Smart Pause Handling**: Automatically clears the presence after a configurable timeout (default 5 minutes) so it doesn't linger indefinitely.
 - 🔘 **"Listen on YouTube Music" Button**: Allows friends to click your Discord profile and instantly search / open the currently playing track.
 - 🔄 **Auto-Reconnect**: Seamlessly reconnects whenever Discord or your browser restarts.
 - 🪶 **Ultra Low Resource Usage**: Consumes only ~15 MB of RAM and negligible CPU (~0%).

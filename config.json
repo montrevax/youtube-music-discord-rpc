@@ -1,0 +1,11 @@
+{
+  "client_id": "1177081335727267940",
+  "update_interval": 1.5,
+  "show_pause_state": true,
+  "pause_timeout_seconds": 300,
+  "show_listen_button": true,
+  "button_label": "Listen on YouTube Music",
+  "fallback_icon": "https://music.youtube.com/img/favicon_144.png",
+  "play_icon": "https://raw.githubusercontent.com/material-icons/material-icons/master/png/av/play_arrow/baseline_play_arrow_white_48dp.png",
+  "pause_icon": "https://raw.githubusercontent.com/material-icons/material-icons/master/png/av/pause/baseline_pause_white_48dp.png"
+}

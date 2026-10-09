@@ -1,0 +1,14 @@
+[Unit]
+Description=YouTube Music Discord Rich Presence Daemon
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 %h/.local/bin/ytm-discord-rpc
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=graphical-session.target default.target
